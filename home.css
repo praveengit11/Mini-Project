@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding-left: 0;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('home.jpeg');
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+ position: relative;
+}
+
+.title{
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  transform: translate(-10%,-45%);
+}
+
+.select{
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  transform: translate(-25%,-45%);
+}
+
+ul{
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  border: 1px solid white;
+	padding: 50px 35px;
+	background-color: transparent;
+	color: white;
+  font-variant: small-caps;
+	transition: 0.5s ease;
+  font-weight: bold;
+}
+
+.tele{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('tele.jpeg');
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.ai{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('ai.jpeg');
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.free{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('freeenergy.jpeg');
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.tele:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('telehover.jpeg');
+}
+
+.ai:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('aihover.jpeg');
+}
+
+.free:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('freeenergyhover.jpeg');
+}
