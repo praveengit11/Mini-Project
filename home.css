@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding-left: 0;
+  box-sizing: border-box;
 }
 
 header{
@@ -16,7 +17,9 @@ header{
   position: absolute;
   top: 10%;
   left: 45%;
-  transform: translate(-10%,-45%);
+  transform: translate(-10%,-50%);
+  font-variant: small-caps;
+  font-weight: bold;
 }
 
 .select{
@@ -24,20 +27,10 @@ header{
   position: absolute;
   top: 25%;
   left: 45%;
-  transform: translate(-25%,-45%);
+  transform: translate(-25%,-50%);
+  font-weight: bold;
 }
 
-ul{
-  list-style-type: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-ul li{
-  display: inline-block;
-}
 
 ul li a{
   text-decoration: none;
@@ -56,6 +49,13 @@ ul li a{
   background-size: cover;
   background-position: center;
   position: relative;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  padding: 50px 35px;
+  margin: auto;
 }
 
 .ai{
@@ -63,15 +63,28 @@ ul li a{
   height: auto;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: relative;list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 50px 35px;
+  margin: auto;
 }
 
 .free{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('freeenergy.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('free.jpeg');
   height: auto;
   background-size: cover;
   background-position: center;
   position: relative;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  padding: 50px 60px;
+  margin: auto;
 }
 
 .tele:hover{
@@ -83,5 +96,5 @@ ul li a{
 }
 
 .free:hover{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('freeenergyhover.jpeg');
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('freehover.jpeg');
 }

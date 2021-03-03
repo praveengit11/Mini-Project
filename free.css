@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'Shippori Mincho', serif;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(free.jpeg);
+  margin-top: 0px;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#head{
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.natural{
+  text-align: center;
+
+
+}
+.natural h2{
+
+  text-align: center;
+
+}
+.technical{
+  text-align: center;
+
+}
+
+.technical h2{
+  text-align: center;
+
+}
+
+.Social{
+  text-align: center;
+
+}
+
+.Social h2{
+  text-align: center;
+
+}
+#idea{
+  text-align: center;
+}
