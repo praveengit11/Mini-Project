@@ -2,43 +2,56 @@
   margin: 0;
   padding-left: 0;
   box-sizing: border-box;
+  font-family: 'Crimson Pro', serif;
+
 }
 
-header{
+body{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('home.jpeg');
- height: 100vh;
+ height: auto;
  background-size: cover;
  background-position: center;
- position: relative;
+ background-attachment: fixed;
 }
 
 .title{
   color: white;
-  position: absolute;
-  top: 10%;
-  left: 45%;
-  transform: translate(-10%,-50%);
-  font-variant: small-caps;
+  padding-top: 40px;
+  text-align: center;
   font-weight: bold;
+
 }
 
 .select{
   color: white;
-  position: absolute;
-  top: 25%;
-  left: 45%;
-  transform: translate(-25%,-50%);
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
   font-weight: bold;
+}
+
+.telelink{
+  text-align: center;
+  padding-top: 170px;
+}
+
+.ailink{
+  text-align: center;
+  padding-top: 290px;
+}
+
+.freelink{
+  text-align: center;
+  padding-top: 300px;
 }
 
 
 ul li a{
   text-decoration: none;
   border: 1px solid white;
-	padding: 50px 35px;
+	padding: 45px 30px;
 	background-color: transparent;
 	color: white;
-  font-variant: small-caps;
 	transition: 0.5s ease;
   font-weight: bold;
 }
@@ -48,14 +61,9 @@ ul li a{
   height: auto;
   background-size: cover;
   background-position: center;
-  position: relative;
-  list-style-type: none;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%,-50%);
-  padding: 50px 35px;
-  margin: auto;
+  font-size: 25px;
+  padding: 120px 145px;
+
 }
 
 .ai{
@@ -63,28 +71,17 @@ ul li a{
   height: auto;
   background-size: cover;
   background-position: center;
-  position: relative;list-style-type: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  padding: 50px 35px;
-  margin: auto;
+  font-size: 25px;
+  padding: 120px 135px;
 }
 
 .free{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('free.jpeg');
   height: auto;
   background-size: cover;
+  font-size: 25px;
   background-position: center;
-  position: relative;
-  list-style-type: none;
-  position: absolute;
-  top: 50%;
-  left: 75%;
-  transform: translate(-50%,-50%);
-  padding: 50px 60px;
-  margin: auto;
+  padding: 120px 200px;
 }
 
 .tele:hover{

@@ -1,54 +1,143 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
   color: white;
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Crimson Pro', serif;
+  font-size: 25px;
 }
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(free.jpeg);
-  margin-top: 0px;
-  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(free.jpeg);
+  height: auto;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 #head{
   font-weight: bold;
-  font-size: 50px;
+  font-size: 55px;
   margin-top: 20px;
   text-align: center;
 
 }
-.natural{
-  text-align: center;
 
-
+.total{
+  padding: 30px;
+  margin: auto;
+  text-align: left;
 }
-.natural h2{
 
-  text-align: center;
-
-}
 .technical{
-  text-align: center;
-
-}
-
-.technical h2{
-  text-align: center;
-
+  padding: 30px;
+  margin: auto;
+  text-align: left;
 }
 
 .Social{
-  text-align: center;
-
+  padding: 30px;
+  margin: auto;
+  text-align: left;
 }
 
-.Social h2{
-  text-align: center;
-
+.con{
+  padding: 30px;
+  margin: auto;
+  text-align: left;
 }
-#idea{
+
+.ordered{
+    list-style-position: inside;
+}
+
+.od{
+    list-style-position: inside;
+}
+
+.a{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.b{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.c{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+.d{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.e{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.f{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.g{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.h{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.i{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.imd1{
   text-align: center;
+}
+
+.imd2{
+  text-align: center;
+}
+
+.imd3{
+  text-align: center;
+}
+
+.imd4{
+  text-align: center;
+}
+
+.imd5{
+  text-align: center;
+}
+
+#socio{
+  text-align: center;
+}
+
+#link{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: yellow;
+}
+
+#link:hover{
+  color: white;
+  text-decoration-color: white;
 }

@@ -1,15 +1,23 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
   color: white;
-  font-family: 'Shippori Mincho', serif;
+  font-size: 25px;
+  font-family: 'Crimson Pro', serif;
+}
+
+.total{
+  padding: 30px;
+  margin: auto;
+  text-align: left;
 }
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(ai.jpeg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(ai.jpeg);
   height: auto;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 p{
@@ -19,46 +27,100 @@ p{
 
 #head{
   font-weight: bold;
-  font-size: 50px;
+  font-size: 55px;
   margin-top: 20px;
   text-align: center;
 
-
-}
-.natural{
-
-  text-align: center;
-
-
-}
-.natural h2{
-
-  text-align: center;
-
-}
-.technical{
-
-  text-align: center;
-
 }
 
-.technical h2{
-
+.im1{
   text-align: center;
-
 }
 
-.Social{
 
+.iml1{
   text-align: center;
-
 }
 
-.Social h2{
-
+.iml3{
   text-align: center;
-
 }
-#idea{
+
+.iml2{
   text-align: center;
+}
+
+.iml4{
+  text-align: center;
+}
+
+.a{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.b{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.c{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+.d{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.e{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.f{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.g{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.h{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.i{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.j{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.k{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
+}
+
+.l{
+  font-weight: 800;
+  font-variant-caps: small-caps;
+  font-size: 35px;
 }

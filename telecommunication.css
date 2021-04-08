@@ -1,58 +1,69 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
   color: white;
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Crimson Pro', serif;
+  font-size: 25px;
 }
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(tele.jpeg);
-  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(tele.jpeg);
+  height: auto;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 
 #head{
   font-weight: bold;
-  font-size: 50px;
+  font-size: 55px;
   margin-top: 20px;
   text-align: center;
 }
-.natural{
 
-  text-align: center;
-
-
+.total{
+  padding: 30px;
+  margin: auto;
+  text-align: left;
 }
-.natural h2{
 
-  text-align: center;
-
-}
-.technical{
-
-  text-align: center;
+.unordered{
+  list-style: square;
+  list-style-position: inside;
 
 }
 
-.technical h2{
-
-  text-align: center;
-
-}
-
-.Social{
-
-  text-align: center;
+.un{
+  list-style: square;
+  list-style-position: inside;
 
 }
 
-.Social h2{
-
-  text-align: center;
-
+.link{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color: yellow;
 }
-#idea{
+
+.link:hover{
+  color : white;
+  text-decoration-color: white;
+}
+
+.quote{
+  text-align: center;
+  font-size: 35px;
+}
+
+.pic1{
+  text-align: center;
+}
+
+.pic2{
+  text-align: center;
+}
+
+.pic3{
   text-align: center;
 }
