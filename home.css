@@ -14,9 +14,14 @@ body{
  background-attachment: fixed;
 }
 
+.total{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .title{
   color: white;
-  padding-top: 40px;
+  padding-top: 70px;
   text-align: center;
   font-weight: bold;
 
@@ -49,7 +54,7 @@ body{
 ul li a{
   text-decoration: none;
   border: 1px solid white;
-	padding: 45px 30px;
+	padding: 45px 20px;
 	background-color: transparent;
 	color: white;
 	transition: 0.5s ease;
@@ -94,4 +99,30 @@ ul li a{
 
 .free:hover{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('freehover.jpeg');
+}
+
+.link{
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  font-size: 17px;
+  border: 1px solid white;
+  float: right;
+}
+
+.link:hover{
+  background-color: black;
+  text-decoration: none;
+  color: grey;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+
+.login{
+  padding-top: 20px;
+  padding-right: 10px;
 }
