@@ -7,7 +7,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('home.jpeg');
+ background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('home.jpeg');
  height: auto;
  background-size: cover;
  background-position: center;
@@ -125,4 +125,37 @@ ul li a{
 .login{
   padding-top: 20px;
   padding-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .main{
+    display: block;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+    }
+    .telelink{
+      text-align: center;
+    }
+    .tele{
+      font-size: 20px;
+      height: auto;
+      width: auto;
+      padding: 60px;
+      text-align: center;
+    }
+    .ai{
+      font-size: 25px;
+      height: auto;
+      width: auto;
+      padding: 50px;
+      text-align: center;
+    }
+    .free{
+      font-size: 20px;
+      height: auto;
+      width: auto;
+      padding: 60px;
+      text-align: center;
+    }
 }
